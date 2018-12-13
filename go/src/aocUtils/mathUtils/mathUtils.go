@@ -19,3 +19,19 @@ func SumFloats(input []float32) float32 {
 
     return sum
 }
+
+func Abs(a int) int {
+    if a > 0 {
+        return a
+    } else {
+        return -1 * a
+    }
+}
+
+func Min(a, b int) int {
+    if a < b {
+        return a
+    } else {
+        return b
+    }
+}
